@@ -1,4 +1,5 @@
-fastapi==0.111.0
-uvicorn[standard]==0.30.1
-pydantic==2.7.4
-python-multipart==0.0.9
+# TrustTrail backend runs on the Python standard library only
+# (see backend/app/main.py). No third-party packages are required,
+# so `pip install -r requirements.txt` is intentionally a no-op.
+# Do NOT add fastapi/uvicorn/pydantic here — they are unused and
+# fail to build on newer Python versions.

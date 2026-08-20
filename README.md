@@ -36,7 +36,8 @@ Vite build, so both are easy to host on free tiers.
 
 1. Push the repo to GitHub.
 2. Create a **Render Web Service** pointing at the repo (Root directory: `backend`).
-3. Build command: `pip install -r requirements.txt` (or empty — stdlib only).
+3. Build command: `true` (the server is pure Python stdlib, no packages to install —
+   `requirements.txt` is intentionally empty so nothing fails to compile).
 4. Start command: `python -m app.main` (it reads the `PORT` env var Render provides).
 5. Done. You'll get a URL like `https://trusttrail-api.onrender.com`.
 
