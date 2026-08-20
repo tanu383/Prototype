@@ -1,0 +1,47 @@
+[
+  {
+    "id": "loc-001",
+    "name": "Amber Fort Area",
+    "city": "Jaipur",
+    "latitude": 26.9855,
+    "longitude": 75.8513,
+    "risk_level": "HIGH",
+    "description": "Popular fort area with high tourist footfall and frequent overcharging reports"
+  },
+  {
+    "id": "loc-002",
+    "name": "Hawa Mahal District",
+    "city": "Jaipur",
+    "latitude": 26.9239,
+    "longitude": 75.8267,
+    "risk_level": "MEDIUM",
+    "description": "Iconic pink city landmark with moderate vendor activity"
+  },
+  {
+    "id": "loc-003",
+    "name": "City Palace Complex",
+    "city": "Jaipur",
+    "latitude": 26.9258,
+    "longitude": 75.8237,
+    "risk_level": "MEDIUM",
+    "description": "Royal palace complex with licensed and unlicensed guides operating nearby"
+  },
+  {
+    "id": "loc-004",
+    "name": "Jantar Mantar",
+    "city": "Jaipur",
+    "latitude": 26.9247,
+    "longitude": 75.8246,
+    "risk_level": "LOW",
+    "description": "UNESCO heritage observatory with regulated entry"
+  },
+  {
+    "id": "loc-005",
+    "name": "Johari Bazaar",
+    "city": "Jaipur",
+    "latitude": 26.9195,
+    "longitude": 75.8235,
+    "risk_level": "CRITICAL",
+    "description": "Busy gem and jewelry market with highest concentration of fraud reports"
+  }
+]
